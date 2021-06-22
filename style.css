@@ -1,0 +1,195 @@
+body{
+    position: relative;
+    width: 838px;
+    height: 390px;
+
+    background: #FFFFFF;
+}
+h6{
+    margin: 0;
+    margin-right: 100px;
+    width: 150px;
+    height: 15px;
+    padding: 10px 3px;
+
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #939393;
+}
+.messagePlaceHolder{
+    position: absolute;
+    width: 290px;
+    height: 36px;
+    left: 274px;
+    top: 324px;
+}
+.messageBackground
+{
+    width: 290px;
+    height: 36px;
+    left: 274px;
+    top: 324px;
+
+    background: #FFFFFF;
+    border: 1px solid #C5D0DB;
+    border-radius: 4px;
+    display: flex;
+}
+.message{
+    position: absolute;
+    width: 240px;
+    height: 18px;
+    left: 9px;
+    top: 9px;
+
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+
+    border: 0px solid transparent;
+    color: #939393;
+    outline:none;
+    resize: none;
+    overflow: visible;
+}
+.message::-webkit-scrollbar{
+    width: 6px;
+}
+.message::-webkit-scrollbar-track{
+    background: #FFFFFF;
+}
+.message::-webkit-scrollbar-thumb{
+    background: #DAE2EA;
+    border-radius: 3px;     /* закругления плашки */
+}
+#emojiBtn{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 254px;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+.stickerBtn{
+    width: 26px;
+    height: 26px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+.stickerBtn:hover{
+    width: 26px;
+    height: 26px;
+    background: #F0F2F5;
+    border-radius: 3px;
+}
+.stickerBtn p{
+    margin: 0;
+    padding: 2px;
+}
+.emojiBtnOutline{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 6px;
+    top: 6px;
+}
+.emojiColor{
+    position: absolute;
+    left: 8.75%;
+    right: 8.75%;
+    top: 8.75%;
+    bottom: 8.75%;
+}
+.source{
+    position: absolute;
+    visibility: visible;
+    width: 18px;
+    height: 18px;
+}
+#stickersKeyboard{
+    position: absolute;
+    width: 290px;
+    height: 291px;
+    left: 274px;
+    top: 31px;
+}
+.stickersBackground{
+    position: absolute;
+    width: 290px;
+    height: 286px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 0px solid #C5D0DB;
+}
+.stickersBackgroundRectangle{
+    position: absolute;
+    width: 100%;
+    height: 281px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    border: 1px solid #C5D0DB;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.stickersBackgroundPath3{
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    left: 267px;
+    top: 281px;
+
+    background: #EBEEF2;
+    border-bottom: 1px solid #C5D0DB;
+    border-bottom-left-radius: 75%;
+    border-bottom-right-radius: 75%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.emojiConteiner{
+    margin: 0;
+    height: 245px;
+    overflow-y: scroll;
+}
+.emojiConteiner::-webkit-scrollbar{
+    width: 6px;
+}
+.emojiConteiner::-webkit-scrollbar-track{
+    background: #FFFFFF;
+}
+.emojiConteiner::-webkit-scrollbar-thumb{
+    background: #DAE2EA;
+    border-radius: 3px;
+}
+.stickerArea{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 265px;
+    padding-left: 9px;
+    padding-top: 5px;
+}
+.emojiBottomBar{
+    margin: 0;
+    padding: 0;
+    height: 36px;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background: #EBEEF2;
+}
+.emojiBottomBarBtn{
+    width: 36px;
+    height: 36px;
+}
