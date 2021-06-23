@@ -64,18 +64,16 @@
 						</div>
 					</div>
 					<div class="emojiConteiner" id = "oftenEmojiBlock" style="display: none;">
-					<?php
-								foreach ($oftenEmotions as $a) {
-									if($a=="Часто используемые")
-									echo"<h6>$a</h6>";
-								}
-						?>
 						<div class='stickerArea'>
 							<?php
 								foreach ($oftenEmotions as $a) {
 									if($a!="Часто используемые")
 									{
 										echo"<a class='stickerBtn' onmousedown='PasteEmoj(\"$a\")' onmouseup='msgHeight()'><p>$a</p></a>";
+										echo $_COOKIE['Smile'];
+									}
+									else{
+										echo"<h6>$a</h6>";
 									}
 								}
 							?>
